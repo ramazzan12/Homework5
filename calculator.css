@@ -1,0 +1,45 @@
+body {
+    margin: auto;
+    border: 2px black solid;
+    width: 400px;
+    margin-top: 50px;
+}
+#keys {
+    display: wrap;
+}
+#result {
+    text-align: center;
+    width: 285px;
+    height: 40px;
+    margin: 3px;
+    font-size: larger;
+}
+#clear {
+    width: 85px;
+    height: 40px;
+    margin-right: 5px;
+    font-size: 24px;
+}
+#clear:hover {
+    background-color: azure;
+}
+.key {
+    width: 90px;
+    height: 40px;
+    margin: 3px;
+    font-size: 24px;
+}
+#numbers {
+    background-color: azure;
+}
+#numbers:hover {
+    background-color: aqua;
+}
+
+#operator {
+    color: black;
+    background-color: burlywood;
+}
+#operator:hover {
+    background-color: brown;
+}
